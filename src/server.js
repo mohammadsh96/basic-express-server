@@ -21,7 +21,7 @@ const errorHandler = require('../error-handlers/500');
     let errors = 500 ;
     for(let i =0 ; i<error.length ; i++){
      console.log(me);
-     
+     res.json()
      }
      res.status(500).send(me); 
  

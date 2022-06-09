@@ -24,8 +24,8 @@ describe('API Server', () => {
         // expect(response.status).toBe(404);
 
     });
-    it('handle server internal error 500 ', async () => {
-        const response = await request.get('/bad');
-        expect(response.status).toEqual(500);
-    })
+    // it('handle server internal error 500 ', async () => {
+    //     const response = await request.get('/bad');
+    //     expect(response.status).toEqual(500);
+    // } , 17000)
 })
